@@ -5,25 +5,29 @@ const Footer = () => {
         <div className='footer'>
             <div>
             <img src={logo} alt="" />
+            
+            </div>
+            <div className="flex">
+                <div>
+                    <p>About Online food</p>
+                    <p>Read our blog</p>
+                    <p>Sign up to deliver</p>
+                    <p>Add your restaurant</p>
+                </div>
+                <div>
+                    <p>Get help</p>
+                    <p>Read FAQs</p>
+                    <p>View all cities</p>
+                    <p>Restaurants near me</p>
+
+                </div>
+            </div>
+            <div className='d-flex2'>
+                <p>Privacy Policy.</p>
+                <p>Terms of Use</p>
+                <p>Pricing</p>
+            </div>
             <small>Copyright © 2023 Online food</small>
-            </div>
-            <div>
-            About Online food
-            Read our blog
-            Sign up to deliver
-            Add your restaurant
-            </div>
-            <div>
-            Get help
-            Read FAQs
-            View all cities
-            Restaurants near me
-            </div>
-            <div>
-            Privacy Policy.
-            Terms of Use
-            Pricing
-            </div>
         </div>
     );
 };
